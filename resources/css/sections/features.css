@@ -25,7 +25,7 @@
 }
 
 .features .wrapper{
-  background: url(/resources/images/mobile/svg/features-background.svg);
+  background: url(../../images/mobile/svg/features-background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -133,8 +133,8 @@
     content:"";
     position: absolute;
     background-color: #fff;
-    -webkit-mask-image: url("/resources/images/svg-paths/wave-4.svg");
-    mask-image: url("/images/svg-paths/wave-4.svg");
+    -webkit-mask-image: url(../../images/svg-paths/wave-4.svg);
+    mask-image: url(../../images/svg-paths/wave-4.svg);
     -webkit-mask-position: bottom;
     mask-position: bottom;
     -webkit-mask-size: contain;
@@ -154,8 +154,8 @@
   content:"";
   position: absolute;
   background-color: #fff;
-  -webkit-mask-image: url("/resources/images/svg-paths/wave-5.svg");
-  mask-image: url("/images/svg-paths/wave-5.svg");
+  -webkit-mask-image: url(../../images/svg-paths/wave-5.svg);
+  mask-image: url(../../images/svg-paths/wave-5.svg);
   -webkit-mask-position: bottom;
   mask-position: bottom;
   -webkit-mask-size: contain;

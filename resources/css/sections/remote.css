@@ -15,8 +15,8 @@
   top: 0;
   height: 340px;
   background-color: #e6d1a0;
-  -webkit-mask-image: url("/resources/images/svg/remote-wave.svg");
-  mask-image: url("/resources/images/svg/remote-wave.svg");
+  -webkit-mask-image: url(../../images/svg/remote-wave.svg);
+  mask-image: url(../../images/svg/remote-wave.svg);
   -webkit-mask-position: bottom;
   mask-position: bottom;
   -webkit-mask-size: cover;

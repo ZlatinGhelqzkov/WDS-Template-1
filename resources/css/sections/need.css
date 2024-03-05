@@ -18,12 +18,12 @@
   bottom:0;
   min-height: 310px;
   background: #754C27;
-  background-image: url("/resources/images/mobile/svg/need-mobile-background.svg");
+  background-image: url(../../images/mobile/svg/need-mobile-background.svg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-mask-image: url("/resources/images/mobile/svg/need-mobile-background.svg");
-  mask-image: url("/resources/images/mobile/svg/need-mobile-background.svg");
+  -webkit-mask-image: url(../../images/mobile/svg/need-mobile-background.svg);
+  mask-image: url(../../images/mobile/svg/need-mobile-background.svg);
   -webkit-mask-position: center;
   mask-position: center;
   -webkit-mask-size: cover;
@@ -55,8 +55,8 @@
   bottom: 0;
   height: 300px;
   background: #735d3d;
-  -webkit-mask-image: url("/resources/images/svg/brown-wave.svg");
-  mask-image: url("/resources/images/svg/brown-wave.svg");
+  -webkit-mask-image: url(../../images/svg/brown-wave.svg);
+  mask-image: url(../../images/svg/brown-wave.svg);
   -webkit-mask-position: bottom;
   mask-position: bottom;
   -webkit-mask-size: cover;
@@ -97,8 +97,8 @@
   content:"";
   position: absolute;
   background-color: #e5e5e5;
-  -webkit-mask-image: url("/resources/images/svg-paths/path-2.svg");
-  mask-image: url("/images/svg-paths/path-2.svg");
+  -webkit-mask-image: url(../../images/svg-paths/path-2.svg);
+  mask-image: url(../../images/svg-paths/path-2.svg);
   -webkit-mask-position: bottom;
   mask-position: bottom;
   -webkit-mask-size: contain;

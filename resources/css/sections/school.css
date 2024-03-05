@@ -19,8 +19,8 @@
   top: 0;
   height: 320px;
   background-color: #41aeb4;
-  -webkit-mask-image: url("/resources/images/svg/intro-wave.svg");
-  mask-image: url("/resources/images/svg/intro-wave.svg");
+  -webkit-mask-image: url(../../images/svg/intro-wave.svg);
+  mask-image: url(../../images/svg/intro-wave.svg);
   -webkit-mask-position: bottom;
   mask-position: bottom;
   -webkit-mask-size: cover;
@@ -118,8 +118,8 @@
     content:"";
     position: absolute;
     background-color: #e5e5e5;
-    -webkit-mask-image: url("/resources/images/svg-paths/path-3.svg");
-    mask-image: url("/images/svg-paths/path-3.svg");
+    -webkit-mask-image: url(../../images/svg-paths/path-3.svg);
+    mask-image: url(../../images/svg-paths/path-3.svg);
     -webkit-mask-position: bottom;
     mask-position: bottom;
     -webkit-mask-size: contain;
@@ -150,8 +150,8 @@
     content:"";
     position: absolute;
     background-color: #e5e5e5;
-    -webkit-mask-image: url("/resources/images/svg-paths/path-3.svg");
-    mask-image: url("/images/svg-paths/path-3.svg");
+    -webkit-mask-image: url(../../images/svg-paths/path-3.svg);
+    mask-image: url(../../images/svg-paths/path-3.svg);
     -webkit-mask-position: bottom;
     mask-position: bottom;
     -webkit-mask-size: contain;

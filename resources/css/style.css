@@ -8,7 +8,7 @@
 @import url(./sections/clouds.css);
 @import url(./sections/features.css);
 @import url(./sections/footer.css);
-@import url(./sectionsside-bar.css);
+@import url(./components/side-bar.css);
 
 /* makes sizing simpler */
 
@@ -162,94 +162,4 @@ h5 {
   h2,h4,h5{
     filter:none;
   }
-}
-
-/*####################################
-############### SIDE BAR ###############
-######################################*/
-
-.side-bar {
-  position: fixed;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 10000;
-  width: 40px;
-  text-align: center;
-}
-
-@media (max-width: 977px) {
-  .side-bar {
-    display: none;
-  }
-}
-
-.road {
-  width: 100%;
-  height: calc(100% - 22px);
-  background-image: url(../images/scroll-road.png);
-}
-
-.side-bar p {
-  background: #fff;
-  font-size: 10px;
-}
-
-.car {
-  position: absolute;
-  right: 0;
-  /* THE TOP STYLE IS SET BY CAR.JS*/
-  top: 22px;
-  z-index: 10002;
-  width: 40px;
-  text-align: center;
-  background-image: url(../images/scroll-car.png);
-  background-color: #02443d;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 50px;
-}
-
-.side-bar-text {
-  position: absolute;
-  /* THE DISPLAY STYLE IS SET BY SCROLL.JS*/
-  align-items: center;
-  justify-content: center;
-  right: 45px;
-  /* THE TOP STYLE IS SET BY CAR.JS*/
-  top: 40px;
-  padding: 5px 23px;
-  max-width: 130px;
-  height: 3rem;
-  z-index: 10002;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 10px;
-  max-width: 160px;
-}
-
-.side-bar-text p {
-  display: inline-block;
-  font-size: 16px;
-  max-width: 65px;
-  font-family: "Roboto";
-  font-weight: 400;
-  color: #02443d;
-  background: none;
-}
-
-.side-bar-bubble-arrow {
-  position: absolute;
-  right: 40px;
-  /* THE TOP STYLE IS SET BY CAR.JS*/
-  top: 60px;
-  width: 10px;
-  height: 10px;
-  z-index: 10002;
-  text-align: center;
-  background-color: #fff;
-  transform: translateY(-50%) rotate(40deg);
 }

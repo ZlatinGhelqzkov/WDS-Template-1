@@ -133,8 +133,8 @@
     height: 80px;
     width: 25px;
     transform:translateY(110%);
-    -webkit-mask-image:url("/resources/images/mobile/svg-paths/intro-path.svg");
-    mask-image:url("/resources/images/mobile/svg-paths/intro-path.svg");
+    -webkit-mask-image:url(../../images/mobile/svg-paths/intro-path.svg);
+    mask-image:url(../../images/mobile/svg-paths/intro-path.svg);
     -webkit-mask-size: contain;
     mask-size: contain;
   }
