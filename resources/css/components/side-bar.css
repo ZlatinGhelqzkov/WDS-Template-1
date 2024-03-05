@@ -48,7 +48,7 @@
 .road {
   width: 100%;
   height: calc(100% - 22px);
-  background-image: url(../images/scroll-road.png);
+  background-image: url(../../images/scroll-road.png);
 }
 
 .side-bar p {
@@ -64,7 +64,7 @@
   z-index: 10002;
   width: 40px;
   text-align: center;
-  background-image: url(../images/scroll-car.png);
+  background-image: url(../../images/scroll-car.png);
   background-color: #02443d;
   background-repeat: no-repeat;
   background-size: contain;
