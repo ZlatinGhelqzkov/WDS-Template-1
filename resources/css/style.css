@@ -1,0 +1,255 @@
+@import url(./sections/wrapper.css);
+@import url(./sections/header.css);
+@import url(./sections/intro.css);
+@import url(./sections/wishes.css);
+@import url(./sections/need.css);
+@import url(./sections/school.css);
+@import url(./sections/remote.css);
+@import url(./sections/clouds.css);
+@import url(./sections/features.css);
+@import url(./sections/footer.css);
+@import url(./sectionsside-bar.css);
+
+/* makes sizing simpler */
+
+/*####################################
+############### RESET ###############
+######################################*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* dark mode user-agent-styles */
+
+/* min body height */
+
+/* width */
+::-webkit-scrollbar {
+  display: none;
+  width: 1vw;
+  background-image: url(../images/scroll-road.png);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #02443d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: url(../images/scroll-car.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+  width: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  scrollbar-gutter: stable;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+@media(min-width: 992px){
+  main{
+    padding-right: 40px;
+  }
+}
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+section {
+  position: relative;
+}
+
+/*####################################
+############### GLOBAL ###############
+######################################*/
+
+.font-luckiest {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.font-into-light {
+  font-family: "Shadows Into Light Two", cursive;
+}
+
+.shadow {
+  text-shadow: -3px 4px rgba(0, 0, 1, 0.2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Luckiest Guy", cursive;
+  position: relative;
+}
+
+h1 {
+  font-size: 100px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 80px;
+color: #ffffff;
+font-weight: 400;
+filter: drop-shadow(-13.808px 5.861px 0.5px rgba(0,0,1,0.15));
+text-transform: uppercase;
+}
+
+@media(max-width: 767px){
+  h2{
+    font-size: 32px;
+  }
+}
+
+h4 {
+  font-size: 57px;
+  color: #fff;
+  text-transform: uppercase;
+  filter: drop-shadow(-4.603px 1.954px 0.5px rgba(0,0,1,0.2));
+}
+
+h5 {
+  color: #c2ee6d;
+  width: 100%;
+  font-size: 86px;
+  letter-spacing: -1px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 23px;
+  filter: drop-shadow(-4.603px 1.954px 0.5px rgba(0,0,1,0.2));
+}
+
+@media(max-width: 1200px){
+  h2,h4,h5{
+    filter:none;
+  }
+}
+
+/*####################################
+############### SIDE BAR ###############
+######################################*/
+
+.side-bar {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10000;
+  width: 40px;
+  text-align: center;
+}
+
+@media (max-width: 977px) {
+  .side-bar {
+    display: none;
+  }
+}
+
+.road {
+  width: 100%;
+  height: calc(100% - 22px);
+  background-image: url(../images/scroll-road.png);
+}
+
+.side-bar p {
+  background: #fff;
+  font-size: 10px;
+}
+
+.car {
+  position: absolute;
+  right: 0;
+  /* THE TOP STYLE IS SET BY CAR.JS*/
+  top: 22px;
+  z-index: 10002;
+  width: 40px;
+  text-align: center;
+  background-image: url(../images/scroll-car.png);
+  background-color: #02443d;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 50px;
+}
+
+.side-bar-text {
+  position: absolute;
+  /* THE DISPLAY STYLE IS SET BY SCROLL.JS*/
+  align-items: center;
+  justify-content: center;
+  right: 45px;
+  /* THE TOP STYLE IS SET BY CAR.JS*/
+  top: 40px;
+  padding: 5px 23px;
+  max-width: 130px;
+  height: 3rem;
+  z-index: 10002;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 160px;
+}
+
+.side-bar-text p {
+  display: inline-block;
+  font-size: 16px;
+  max-width: 65px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #02443d;
+  background: none;
+}
+
+.side-bar-bubble-arrow {
+  position: absolute;
+  right: 40px;
+  /* THE TOP STYLE IS SET BY CAR.JS*/
+  top: 60px;
+  width: 10px;
+  height: 10px;
+  z-index: 10002;
+  text-align: center;
+  background-color: #fff;
+  transform: translateY(-50%) rotate(40deg);
+}

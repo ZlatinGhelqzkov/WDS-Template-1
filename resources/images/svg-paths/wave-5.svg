@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.00 0.00 158.00 273.00">
+<path fill="#ffffff" d="
+  M 144.10 0.00
+  L 144.44 0.00
+  Q 145.57 1.86 145.99 3.76
+  Q 146.11 4.30 145.63 4.57
+  Q 145.22 4.79 144.75 4.71
+  Q 144.22 4.61 143.97 4.12
+  C 143.27 2.77 142.21 1.01 144.10 0.00
+  Z"
+/>
+<rect fill="#ffffff" x="-1.20" y="-2.32" transform="translate(148.98,15.97) rotate(-16.7)" width="2.40" height="4.64" rx="1.12"/>
+<rect fill="#ffffff" x="-1.19" y="-2.30" transform="translate(152.30,29.76) rotate(-10.5)" width="2.38" height="4.60" rx="1.07"/>
+<rect fill="#ffffff" x="-1.19" y="-2.29" transform="translate(154.60,43.75) rotate(-7.4)" width="2.38" height="4.58" rx="1.06"/>
+<rect fill="#ffffff" x="-1.17" y="-2.30" transform="translate(155.86,57.87) rotate(-2.9)" width="2.34" height="4.60" rx="0.97"/>
+<rect fill="#ffffff" x="-1.20" y="-2.31" transform="translate(155.99,72.06) rotate(2.3)" width="2.40" height="4.62" rx="1.05"/>
+<rect fill="#ffffff" x="-1.19" y="-2.31" transform="translate(154.80,86.19) rotate(8.2)" width="2.38" height="4.62" rx="1.10"/>
+<rect fill="#ffffff" x="-1.19" y="-2.35" transform="translate(152.01,100.09) rotate(15.3)" width="2.38" height="4.70" rx="1.13"/>
+<rect fill="#ffffff" x="-1.19" y="-2.32" transform="translate(147.17,113.40) rotate(24.4)" width="2.38" height="4.64" rx="1.12"/>
+<rect fill="#ffffff" x="-2.31" y="-1.19" transform="translate(107.90,119.08) rotate(-3.2)" width="4.62" height="2.38" rx="1.09"/>
+<rect fill="#ffffff" x="-1.20" y="-2.33" transform="translate(139.66,125.43) rotate(39.2)" width="2.40" height="4.66" rx="1.13"/>
+<rect fill="#ffffff" x="-1.20" y="-2.32" transform="translate(119.35,126.35) rotate(-37.2)" width="2.40" height="4.64" rx="1.14"/>
+<rect fill="#ffffff" x="-1.19" y="-2.32" transform="translate(97.94,127.95) rotate(17.7)" width="2.38" height="4.64" rx="1.11"/>
+<rect fill="#ffffff" x="-2.34" y="-1.19" transform="translate(129.14,134.86) rotate(-31.7)" width="4.68" height="2.38" rx="1.13"/>
+<rect fill="#ffffff" x="-1.20" y="-2.33" transform="translate(126.03,138.79) rotate(-20.1)" width="2.40" height="4.66" rx="1.13"/>
+<rect fill="#ffffff" x="-2.31" y="-1.20" transform="translate(102.20,140.09) rotate(26.1)" width="4.62" height="2.40" rx="1.09"/>
+<ellipse fill="#ffffff" cx="0.00" cy="0.00" transform="translate(116.11,140.35) rotate(-13.8)" rx="2.45" ry="1.29"/>
+<rect fill="#ffffff" x="-1.18" y="-2.31" transform="translate(128.83,152.67) rotate(-1.9)" width="2.36" height="4.62" rx="1.03"/>
+<rect fill="#ffffff" x="-1.19" y="-2.29" transform="translate(127.70,166.75) rotate(12.0)" width="2.38" height="4.58" rx="1.07"/>
+<ellipse fill="#ffffff" cx="0.00" cy="0.00" transform="translate(123.43,180.27) rotate(112.6)" rx="2.45" ry="1.30"/>
+<rect fill="#ffffff" x="-1.20" y="-2.32" transform="translate(116.96,192.89) rotate(30.9)" width="2.40" height="4.64" rx="1.13"/>
+<rect fill="#ffffff" x="-1.19" y="-2.33" transform="translate(108.90,204.57) rotate(37.8)" width="2.38" height="4.66" rx="1.13"/>
+<rect fill="#ffffff" x="-1.19" y="-2.30" transform="translate(99.71,215.34) rotate(43.2)" width="2.38" height="4.60" rx="1.09"/>
+<rect fill="#ffffff" x="-2.32" y="-1.20" transform="translate(89.58,225.30) rotate(-42.2)" width="4.64" height="2.40" rx="1.14"/>
+<rect fill="#ffffff" x="-2.33" y="-1.20" transform="translate(78.75,234.47) rotate(-37.4)" width="4.66" height="2.40" rx="1.12"/>
+<rect fill="#ffffff" x="-2.33" y="-1.20" transform="translate(67.31,242.85) rotate(-34.3)" width="4.66" height="2.40" rx="1.11"/>
+<rect fill="#ffffff" x="-2.33" y="-1.20" transform="translate(55.30,250.45) rotate(-31.4)" width="4.66" height="2.40" rx="1.13"/>
+<rect fill="#ffffff" x="-2.33" y="-1.17" transform="translate(42.83,257.18) rotate(-26.2)" width="4.66" height="2.34" rx="1.12"/>
+<rect fill="#ffffff" x="-2.33" y="-1.07" transform="translate(29.85,262.92) rotate(-21.5)" width="4.66" height="2.14" rx="1.01"/>
+<rect fill="#ffffff" x="-2.31" y="-1.19" transform="translate(16.47,267.75) rotate(-18.5)" width="4.62" height="2.38" rx="1.12"/>
+<rect fill="#ffffff" x="-2.33" y="-1.19" transform="translate(2.72,271.16) rotate(-10.3)" width="4.66" height="2.38" rx="1.12"/>
+</svg>

@@ -1,0 +1,144 @@
+.intro {
+  background: url(/resources/images/intro-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+@media(max-width: 768px){
+.intro{
+  padding-top: 50px;
+}
+}
+
+@media(max-width: 1200px){
+  .intro{
+    padding-bottom: 50px;
+  }
+}
+
+@media(max-width: 768px){
+  .intro-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+.driver-desktop {
+  position: relative;
+  width: 100%;
+}
+
+@media(max-width: 767px){
+  .driver-desktop{
+    display: none;
+  }
+}
+
+.driver-mobile{
+  width: 100%;
+  display: flex;
+}
+
+@media(min-width: 767px){
+  .driver-mobile, .text-mobile{
+    display: none;
+  }
+}
+
+
+
+.driver-mobile img{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+
+.see-how {
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, 50%);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 100%;
+  border: 4px solid #40aeb3;
+  box-shadow: 0 0 0 0.25rem rgb(0, 0, 0, 0.05);
+}
+
+@media(max-width: 767px){
+  .see-how{
+    bottom: 12%;
+  }
+
+}
+
+@media((min-width: 768px) and (max-width: 1200px)){
+  .see-how{
+    bottom: 115px;
+  }
+}
+
+.see-how:before{
+  content: "see how";
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+  top: -50px;
+  left: -15px;
+  z-index: 100;
+  width: 100px;
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #41aeb4;
+  font-weight: 400;
+  font-family: 'Pacifico', cursive;
+}
+
+.see-how::after{
+  content: "";
+  position: absolute;
+  background-color: #e5e5e5;
+  -webkit-mask-image: url("/resources/images/svg-paths/path-1.svg");
+  mask-image: url("/images/svg-paths/path-1.svg");
+  -webkit-mask-position: bottom;
+  mask-position: bottom;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  top: -230px;
+  right: -220px;
+  z-index: 100;
+}
+
+
+@media(max-width: 1200px){
+  .see-how:after{
+    bottom: 0;
+    top: auto;
+    right: auto;
+    height: 80px;
+    width: 25px;
+    transform:translateY(110%);
+    -webkit-mask-image:url("/resources/images/mobile/svg-paths/intro-path.svg");
+    mask-image:url("/resources/images/mobile/svg-paths/intro-path.svg");
+    -webkit-mask-size: contain;
+    mask-size: contain;
+  }
+  .see-how:before{
+    content: none;
+  }
+}

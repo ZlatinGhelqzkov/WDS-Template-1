@@ -1,0 +1,22 @@
+.clouds {
+  background: url(/resources/images/clouds-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.clouds .wrapper {
+  padding: 450px 200px;
+}
+
+@media(max-width: 767px){
+  .clouds{
+    display: none;
+  }
+}
+
+@media(max-width: 1023px){
+  .clouds .wrapper{
+    padding: 250px 200px;
+  }
+}
