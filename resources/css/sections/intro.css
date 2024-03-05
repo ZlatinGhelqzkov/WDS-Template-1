@@ -1,5 +1,5 @@
 .intro {
-  background: url(/resources/images/intro-background.png);
+  background: url(../../images/intro-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
@@ -109,8 +109,8 @@
   content: "";
   position: absolute;
   background-color: #e5e5e5;
-  -webkit-mask-image: url("/resources/images/svg-paths/path-1.svg");
-  mask-image: url("/images/svg-paths/path-1.svg");
+  -webkit-mask-image: url(../../images/svg-paths/path-1.svg);
+  mask-image: url(../../images/svg-paths/path-1.svg);
   -webkit-mask-position: bottom;
   mask-position: bottom;
   -webkit-mask-size: cover;

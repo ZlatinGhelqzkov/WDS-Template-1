@@ -15,8 +15,8 @@
   right: 0;
   height: 280px;
   background: #40aeb3;
-  -webkit-mask-image: url("/resources/images/svg/intro-wave.svg");
-  mask-image: url("/resources/images/svg/intro-wave.svg");
+  -webkit-mask-image: url(../../images/svg/intro-wave.svg);
+  mask-image: url(../../images/svg/intro-wave.svg);
   -webkit-mask-position: bottom;
   mask-position: bottom;
   -webkit-mask-size: cover;
@@ -37,8 +37,8 @@
     right: 0;
     height: 400px;
     background: #40aeb3;
-    -webkit-mask-image: url("/resources/images/mobile/svg/intro-wave-mobile.svg");
-    mask-image: url("/resources/images/mobile/svg/intro-wave-mobile.svg");
+    -webkit-mask-image: url(../../images/mobile/svg/intro-wave-mobile.svg);
+    mask-image: url(../../images/mobile/svg/intro-wave-mobile.svg);
     -webkit-mask-position: bottom;
     mask-position: bottom;
     -webkit-mask-size: cover;
@@ -68,8 +68,8 @@
     right: 0;
     height: 400px;
     background: #000;
-    -webkit-mask-image: url("/resources/images/svg/Rectangle.svg");
-    mask-image: url("/resources/images/svg/Rectangle.svg");
+    -webkit-mask-image: url(../../images/svg/Rectangle.svg);
+    mask-image: url(../../images/svg/Rectangle.svg);
     -webkit-mask-position: top;
     mask-position: top;
     -webkit-mask-size: cover;
@@ -142,8 +142,8 @@
     right: auto;
     height: 120px;
     width: 50px;
-    -webkit-mask-image:url("/resources/images/mobile/svg-paths/intro-path.svg");
-    mask-image:url("/resources/images/mobile/svg-paths/intro-path.svg");
+    -webkit-mask-image:url(../../images/mobile/svg-paths/intro-path.svg);
+    mask-image:url(../../images/mobile/svg-paths/intro-path.svg);
     -webkit-mask-position: bottom;
     mask-position: bottom;
     -webkit-mask-size: contain;
@@ -161,7 +161,7 @@
   bottom: 0;
   width: 100%;
   height: 75%;
-  background: url(/resources/images/city-landscape.png);
+  background: url(../../images/city-landscape.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
